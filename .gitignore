@@ -65,4 +65,7 @@ Backup of *.doc*
 # Visio autosave temporary files
 *.~vsd*
 
+# R
+.Rhistory
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,jupyternotebooks,microsoftoffice
