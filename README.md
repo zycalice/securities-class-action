@@ -1,2 +1,2 @@
-# class_action
-analysis, ml, and nlp using Stanford Class Action database
+# Securities Class Action
+Analysis, Machine Learning, and Natural Language Processing using Stanford Class Action database
