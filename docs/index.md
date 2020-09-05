@@ -1,5 +1,7 @@
 ## Securities Class Action
 
+[>> Back to my website](https://zycalice.github.io/)
+
 This is an interesting analysis looking at securities class action litigations. A security class action is a special type of class action with regards to stocks. For example, a company knew of a potential risk but did not disclose it to the shareholders through press releases or filings. During this period, the stock price was artificially high. Due to this reason, the shareholders who bought the shares during this period and did not sell before the risk is revealed are entitled to claim damages. In securities law, this corresponds to section 10b-5 or section 11.
 
 Stanford University has a well-established [database](http://securities.stanford.edu/filings.html). 
