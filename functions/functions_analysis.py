@@ -14,7 +14,10 @@ def top10_count(data, var, sort, top=10):
 def create_date_intervals(data, var):
     data['year_' + var] = pd.to_datetime(data[var]).dt.to_period('Y')
     data['yearmonth_' + var] = pd.to_datetime(data[var]).dt.to_period('M')
-    data['month_'+ var] = data[var].apply(lambda x:datetime.datetime.strptime(x, "%m/%d/%Y").month)
+    try:
+        data['month_'+ var] = data[var].apply(lambda x:datetime.datetime.strptime(x, "%m/%d/%Y").month)
+    except:
+        data['month_'+ var] = data[var].apply(lambda x:datetime.datetime.strptime(x, "%m/%d/%y").month)
 
 # Time series for month_year
 def time_series(data, date_interval, var):
