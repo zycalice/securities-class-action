@@ -5,21 +5,21 @@ This is an interesting analysis looking at securities class action litigations. 
 Stanford University has a well-established [database](http://securities.stanford.edu/filings.html). 
 
 1.The first part of this project is to establish a scrapping pipeline using Scrapy to scrape the main table and individual information (including court document pdfs) under individual case links. This step is done and data are saved in both csv and json formats.
-  -There are 5771 cases scraped (as of 07/12/2020) for the main table and individual information.
-  -There are 5253 cases with documents under "First Identified Complaints". All 16771 documents in pdf form are downloaded.
+There are 5771 cases scraped (as of 07/12/2020) for the main table and individual information.
+There are 5253 cases with documents under "First Identified Complaints". All 16771 documents in pdf form are downloaded.
   
 2.The second part is to provide a descriptive analysis of recent trends and interesting insights into these 5771 cases. Stanford University has also provided some such analysis. This step is preliminary and still in process. Several observations:
-  -Biotech and software have the highest number of cases, showing how innovation and research are not very predictable and information released to the public might not be accurate in the public eye.
+Biotech and software have the highest number of cases, showing how innovation and research are not very predictable and information released to the public might not be accurate in the public eye.
 <p align="center">
   <img src="./images/industry-top10.png" class="inline" width="300"/>
 </p>
 
-  -S.D. New York District Court has the most cases (1,406) and this is way more than the second winner which is N.D. California (565). The third is C.D. California (373).
+S.D. New York District Court has the most cases (1,406) and this is way more than the second winner which is N.D. California (565). The third is C.D. California (373).
 <p align="center">
   <img src="./images/court-top10.png" class="inline" width="200"/>
 </p>
-  
-  -Over the years, the number of securities class action spiked in 2001 (using date filed), and went down probably due to the economic downturn. Starting in 2012, the number of cases filed steadily increased.
+
+Over the years, the number of securities class action spiked in 2001 (using date filed), and went down probably due to the economic downturn. Starting in 2012, the number of cases filed steadily increased.
 <p align="center">
   <img src="./images/timeSeries.png" class="inline" width="500"/>
 </p>
