@@ -16,7 +16,7 @@ Stanford University has a well-established [database](http://securities.stanford
 
   - S.D. New York District Court has the most cases (1,406) and this is way more than the second winner which is N.D. California (565). The third is C.D. California (373).
 <p align="center">
-  <img src="./images/court-top10.png" class="inline" width="150"/>
+  <img src="./images/court-top10.png" class="inline" width="200"/>
 </p>
   
   - Over the years, the number of securities class action spiked in 2001 (using date filed), and went down probably due to the economic downturn. Starting in 2012, the number of cases filed steadily increased.
