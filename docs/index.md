@@ -23,7 +23,7 @@ S.D. New York District Court has the most cases (1,406) and this is way more tha
   <img src="./images/court-top10.png" class="inline" width="200"/>
 </p>
 
-Over the years, the number of securities class action spiked in 2001 (using date filed), and went down probably due to the economic downturn. Starting in 2012, the number of cases filed steadily increased.
+Over the years, the number of securities class action spiked in 2001 (using date filed), mostly due to [IPO laddering cases](https://www.nera.com/content/dam/nera/publications/2020/PUB_Year_End_Trends_012120_Final.pdf). Starting in 2012, the number of cases filed steadily increased.
 <p align="center">
   <img src="./images/timeSeries.png" class="inline" width="500"/>
 </p>
