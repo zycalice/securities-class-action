@@ -9,7 +9,7 @@ Stanford University has a well-established [database](http://securities.stanford
 1.) The first part of this project is to establish a scrapping pipeline using Scrapy to scrape the main table (main link) and individual case information (information from case sublinks, including court document pdfs) under individual case links. This step is done and data are saved in both csv and json formats.
 
 There are 5,771 cases scraped (as of 07/12/2020) for the main table and individual case information.
-There are 5,254 cases with documents under "First Identified Complaints". All 16,727 documents in pdf form are downloaded.
+There are 5,254 cases with documents under "First Identified Complaints". There are 16,826 different documents, and there 16,727 unique documents with same stanford id, title and date. The duplicates are mostly due to a copy of dismissal or other requests; earlier version does not have judge stamp the second version does. All documents in pdf form are downloaded.
   
 2.) The second part is to provide a descriptive analysis of recent trends and interesting insights into these 5,771 cases. Stanford University has also provided some such analysis. This step is preliminary and still in process. Several observations:
 
